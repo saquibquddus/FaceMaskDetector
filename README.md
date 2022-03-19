@@ -2,5 +2,12 @@
 Face Mask Detection using TF1.14
 
 # Classes
-Two classes are there with or without_mask
+1. with_mask
+2. without_mask
 
+# Sameple Detection
+### Input Image 
+![Input Image](research/inputimage.png)
+
+### Output Image
+![Detected Image](outputimage.png)
