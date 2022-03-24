@@ -4,8 +4,8 @@ from flask_cors import CORS, cross_origin
 from com_in_ineuron_ai_utils.utils import decodeImage
 from research.obj import MultiClassObj
 
-# os.putenv('LANG', 'en_US.UTF-8')
-# os.putenv('LC_ALL', 'en_US.UTF-8')
+os.putenv('LANG', 'en_US.UTF-8')
+os.putenv('LC_ALL', 'en_US.UTF-8')
 
 app = Flask(__name__)
 CORS(app)
