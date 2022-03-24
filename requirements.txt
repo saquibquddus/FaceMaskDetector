@@ -19,7 +19,7 @@ numpy==1.17.2
 tensorboard==1.14
 tensorflow==1.14.0
 tensorflow-estimator==1.14.0
-#object_detection-0.0.3.tar
+object_detection-0.0.3.tar
 Pillow==6.2.0
 protobuf==3.10.0
 six==1.12.0
