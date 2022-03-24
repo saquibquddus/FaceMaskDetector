@@ -27,7 +27,7 @@ def home():
 @app.route("/predict", methods=['POST'])
 @cross_origin()
 def predictRoute():
-    #clApp = ClientApp()
+    clApp = ClientApp()
     image = request.json['image']
     decodeImage(image, clApp.filename)
     result = clApp.objectDetection.getPrediction()
@@ -35,7 +35,7 @@ def predictRoute():
 
 
 #port = int(os.getenv("PORT"))
-clApp = ClientApp()
+# clApp = ClientApp()
 if __name__ == "__main__":
     # clApp = ClientApp()
     # port = 5000
